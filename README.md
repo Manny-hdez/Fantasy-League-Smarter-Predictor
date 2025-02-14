@@ -47,12 +47,9 @@ A tool to analyze fantasy league data and predict player performance for upcomin
    - Confidence intervals for predictions
 
 ## Getting Started
-
+How to run the project
 
 ## Data Sources
 - League API
 - Historical stats databases
 - Player news and updates
-
-## Contributing
-
