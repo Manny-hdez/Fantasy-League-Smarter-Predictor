@@ -47,9 +47,31 @@ A tool to analyze fantasy league data and predict player performance for upcomin
    - Confidence intervals for predictions
 
 ## Getting Started
-How to run the project
+1. Create and activate virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+2. Install dependencies from requirements.txt:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Set up environment variables:
+   - Create a `.env` file in the root directory (this will be ignored by git)
+   - Add your Sleeper username:
+     ```
+     SLEEPER_USERNAME=your_username
+     ```
+
+4. Run the data collection script:
+   ```bash
+   python scripts/fetch_sleeper_data.py
+   ```
 
 ## Data Sources
-- League API
-- Historical stats databases
-- Player news and updates
+- **Sleeper API**
+  - Free and well-documented API
+  - Real-time updates and player news
+  - Documentation: https://docs.sleeper.com/
